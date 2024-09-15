@@ -1,0 +1,49 @@
+
+main{
+    color: black;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+header{
+    text-align: center;
+}
+
+
+main {
+    margin: 1rem auto;
+    width: 50%;
+}
+
+section {
+    padding: 5px;
+    margin: 5px;
+    flex: 100px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+h2{
+    border-bottom: 3px solid #EAD7C3;
+    margin: 1px;
+    text-align: left;
+    width: 100%; 
+
+}
+
+
+
+.contact-about, .skill-exp, .top-clip {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+
+}
+
