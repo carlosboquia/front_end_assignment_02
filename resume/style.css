@@ -1,21 +1,33 @@
 
-main{
+body {
     color: black;
     line-height: 1.5;
     margin: 0;
     padding: 0;
     font-size: 100%;
+    font-family: "Raleway", sans-serif;
 }
 
-header{
+
+header {
     text-align: center;
+    padding: 1rem;
 }
 
 
-main {
-    margin: 1rem auto;
-    width: 50%;
+
+header p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight:400;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dce0d9;
 }
+
+
 
 section {
     padding: 5px;
@@ -35,15 +47,22 @@ h2{
     margin: 1px;
     text-align: left;
     width: 100%; 
-
+    font-style: oblique;
 }
-
-
 
 .contact-about, .skill-exp, .top-clip {
     display: flex;
     gap: 50px;
     justify-content: space-between;
+}
+
+ul, p {
+
+    font-size: medium;
 
 }
 
+a {
+    text-decoration: none;
+
+}
