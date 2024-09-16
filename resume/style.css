@@ -6,6 +6,7 @@ body {
     padding: 0;
     font-size: 100%;
     font-family: "Raleway", sans-serif;
+    background-color: #fbf6ef;
 }
 
 
@@ -27,6 +28,15 @@ header p {
     border-bottom: 1px solid #dce0d9;
 }
 
+header nav{
+
+    display: table;
+}
+
+main {
+    margin: 2rem auto;
+    width: 80%;
+}
 
 
 section {
@@ -35,11 +45,9 @@ section {
     flex: 100px;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
-
-
 }
 
 h2{
@@ -54,15 +62,31 @@ h2{
     display: flex;
     gap: 50px;
     justify-content: space-between;
+
 }
 
 ul, p {
-
     font-size: medium;
-
 }
 
 a {
     text-decoration: none;
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: greenyellow;
+    }
+    .contact-about, .skill-exp, .top-clip  {
+    flex-direction: column;
+    }
+
+}
+
+img,
+picture,
+video {
+max-width: 100%;
 
 }
