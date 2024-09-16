@@ -76,7 +76,7 @@ a {
 
 @media only screen and (max-width: 600px) {
     body {
-        background-color: greenyellow;
+        background-color: lightblue;
     }
     .contact-about, .skill-exp, .top-clip  {
     flex-direction: column;
