@@ -8,5 +8,5 @@ The three colours I'll be using for my resume are as follows:
 #ead7c3 - "Almond" - The more darkest of the colours. I want these to represent the header and hard skills for my resume
 
 
-Fonts: I'll be using Raleway and Helvetic
+Fonts: I'll be using Raleway and verdana
 - I chose this due to it's clean modern look.
